@@ -7,7 +7,9 @@ import sk.itsovy.projectMarket.interfaces.Pc;
 import sk.itsovy.projectMarket.items.Fruit;
 import sk.itsovy.projectMarket.items.Item;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import static sk.itsovy.projectMarket.main.Global.MAXITEMS;
@@ -40,9 +42,18 @@ public class Bill extends Application {
     }
 
     public double getFinalPrice(){
+        double total=0;
+        if(getCount()==0){
+            return 0;
+        }
+        else
+        {
+            for(Item item: list){
+                total = total + item.getTotalPrice();
+            }
+        }
 
-        throw new UnsupportedOperationException("Method does not exist yet");
-
+        return total;
     }
 
     public void print() {
@@ -64,6 +75,16 @@ public class Bill extends Application {
                 }
             }
         }
+    }
+
+    public void billEnd(){}
+
+    public String dateFormat(){
+
+        SimpleDateFormat formatter = new SimpleDateFormat("'Datum: 'yyyy.MM.dd 'Cas: 'HH:mm");
+        Date date = new Date(System.currentTimeMillis());
+        //System.out.println(formatter.format(date));
+        return formatter.format(date);
     }
 
     public int getCount(){

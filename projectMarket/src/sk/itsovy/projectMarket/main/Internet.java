@@ -1,4 +1,4 @@
-package sk.itsovy.projectMarket.interfaces;
+package sk.itsovy.projectMarket.main;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -9,9 +9,9 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public interface Internet {
+public class Internet {
 
-    String getRequest();
+    public String getRequest()
     {
         String rslt="";
 
@@ -27,15 +27,26 @@ public interface Internet {
             JsonParser jp = new JsonParser();
             JsonElement root = jp.parse(new InputStreamReader((InputStream) request.getContent()));
             JsonObject jsonobj = root.getAsJsonObject();
+            jsonobj = jsonobj.getAsJsonObject("rates");
 
-            rslt = jsonobj.get("success").getAsString();
+            //System.out.println(jsonobj);
+
+            rslt = jsonobj.get("USD").getAsString();
             System.out.println(rslt);
 
-        }
-        catch (Exception e){
+        }catch (Exception e){
             e.printStackTrace();
         }
         return rslt;
     }
 
+    public String getFinalToUSD(double price){
+
+        String usdS = getRequest();
+
+        double usd = Double.valueOf(usdS);
+        double rslt = price*usd;
+
+        return String.valueOf(rslt);
+    }
 }

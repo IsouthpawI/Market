@@ -3,12 +3,16 @@ package sk.itsovy.projectMarket;
 import sk.itsovy.projectMarket.Exception.BillException;
 import sk.itsovy.projectMarket.bill.Bill;
 import sk.itsovy.projectMarket.items.*;
+import sk.itsovy.projectMarket.main.Internet;
 
 import static sk.itsovy.projectMarket.items.Category.School;
 
 public class Application {
 
     public void Example() throws BillException {
+
+        Internet net = new Internet();
+        net.getRequest();
 
         Bill bill = new Bill();
 
