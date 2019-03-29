@@ -9,6 +9,16 @@ import static sk.itsovy.projectMarket.items.Category.School;
 
 public class Application {
 
+    private static Application app = new Application();
+
+    private Application(){
+
+    }
+
+    public static Application getInstance(){
+        return app;
+    }
+
     public void Example() throws BillException {
 
         Internet net = new Internet();
@@ -16,9 +26,9 @@ public class Application {
 
         Bill bill = new Bill();
 
-        int count = bill.getCount();
+//        int count = bill.getCount();
 
-        bill.print();
+//        bill.print();
 
         Bottle milk = new Bottle("Milk 2.7%",0.69,3);
         Food apple = new Fruit("Apple",0.47,80,275);
@@ -32,7 +42,13 @@ public class Application {
 
         bill.removeItem(beer);
 
+        int count = bill.getCount();
+        System.out.println(count);
+
         bill.print();
+        System.out.println("\n");
+        System.out.println(bill.getFinalPrice());
+        System.out.println(net.getFinalToUSD(bill.getFinalPrice()));
 
     }
 

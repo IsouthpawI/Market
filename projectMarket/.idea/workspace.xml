@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,23 +40,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/bill/Bill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="-667">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="172">
+              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1553888453193" expanded="true" signature="466:494" ph="..." />
+                <marker date="1553889230479" expanded="true" signature="632:660" ph="..." />
               </folding>
             </state>
           </provider>
@@ -126,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/ItemInterface.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/DrafInterface.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/Pc.java" />
-        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Main.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Global.java" />
         <option value="D:/python/Uloha2.py" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/Converter.java" />
@@ -135,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/Internet.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Internet.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/Application.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Main.java" />
         <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/bill/Bill.java" />
       </list>
     </option>
@@ -146,7 +149,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -224,7 +227,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553888721457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553889489922" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/projectGLshop-master (1)" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -305,19 +308,19 @@
       <workItem from="1553594581641" duration="2156000" />
       <workItem from="1553681141631" duration="3683000" />
       <workItem from="1553763224314" duration="2639000" />
-      <workItem from="1553885743563" duration="1833000" />
+      <workItem from="1553885743563" duration="2603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22250000" />
+    <option name="totallyTimeSpent" value="23020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Learn" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19818456" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16490166" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -501,21 +504,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/bill/Bill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="-667">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1553888453193" expanded="true" signature="466:494" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -533,10 +535,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/bill/Bill.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="172">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1553889230479" expanded="true" signature="632:660" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

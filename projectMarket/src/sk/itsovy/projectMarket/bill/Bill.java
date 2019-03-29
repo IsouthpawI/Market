@@ -14,15 +14,18 @@ import java.util.List;
 
 import static sk.itsovy.projectMarket.main.Global.MAXITEMS;
 
-public class Bill extends Application {
+public class Bill{
 
     public int count;
+    private boolean open;
 
     private List<Item> list;
 
     public Bill() {
-       this.list = new ArrayList<>();
+        this.list = new ArrayList<>();
+        this.open = true;
     }
+
 
     public void addItem(Item item) throws BillException {
 
