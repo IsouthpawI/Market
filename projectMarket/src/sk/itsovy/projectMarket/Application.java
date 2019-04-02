@@ -1,11 +1,10 @@
 package sk.itsovy.projectMarket;
 
+import org.jetbrains.annotations.Contract;
 import sk.itsovy.projectMarket.Exception.BillException;
 import sk.itsovy.projectMarket.bill.Bill;
 import sk.itsovy.projectMarket.items.*;
 import sk.itsovy.projectMarket.main.Internet;
-
-import static sk.itsovy.projectMarket.items.Category.School;
 
 public class Application {
 
@@ -26,6 +25,8 @@ public class Application {
 
         Bill bill = new Bill();
 
+        int count = bill.getCount();
+
 //        int count = bill.getCount();
 
 //        bill.print();
@@ -39,10 +40,8 @@ public class Application {
         bill.addItem(apple);
         bill.addItem(Cola);
         bill.addItem(beer);
-
         bill.removeItem(beer);
 
-        int count = bill.getCount();
         System.out.println(count);
 
         bill.print();

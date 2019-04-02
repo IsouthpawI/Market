@@ -1,7 +1,7 @@
 package sk.itsovy.projectMarket.main;
 
 public class Global {
-    public static final int MAXITEMS = 7;
+    public static final int MAXITEMS = 10;
 
     public void println(String message) {
         System.out.println(message);

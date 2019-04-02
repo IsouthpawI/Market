@@ -17,17 +17,20 @@ import static sk.itsovy.projectMarket.main.Global.MAXITEMS;
 public class Bill{
 
     public int count;
-    private boolean open;
-
+    public boolean open;
     private List<Item> list;
 
-    public Bill() {
+    public Bill() throws IOException {
         this.list = new ArrayList<>();
         this.open = true;
     }
 
 
     public void addItem(Item item) throws BillException {
+
+        if(!open){
+            throw new BillException("Cant add more items");
+        }
 
         list.add(item);
         if(item!=null) {
@@ -38,9 +41,16 @@ public class Bill{
         }
     }
 
+    public ArrayList<Item> getBill(){
+        return (ArrayList<Item>) list;
+    }
+
     public void removeItem(Item item){
 
-        list.remove(item);
+        if(list.contains(item)) {
+            list.remove(item);
+            count--;
+        }
 
     }
 
@@ -59,10 +69,15 @@ public class Bill{
         return total;
     }
 
+    public int getCount(){
+        return this.list.size();
+    }
+
     public void print() {
         if (count == 0) {
             System.out.println("Nothing to print. Bill is empty!");
-        } else {
+        }
+        else {
             for (Item item : list) {
                 if (item instanceof DrafInterface) {
                     System.out.println(item.getName() + " " + ((DrafInterface) item).getVolume() + " ");
@@ -80,17 +95,15 @@ public class Bill{
         }
     }
 
+    public List<Item> getList() {
+        return list;
+    }
+
     public void billEnd(){}
 
     public String dateFormat(){
 
-        SimpleDateFormat formatter = new SimpleDateFormat("'Datum: 'yyyy.MM.dd 'Cas: 'HH:mm");
-        Date date = new Date(System.currentTimeMillis());
-        //System.out.println(formatter.format(date));
-        return formatter.format(date);
+        return date;
     }
 
-    public int getCount(){
-        return this.list.size();
-    }
 }

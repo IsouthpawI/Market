@@ -15,7 +15,6 @@ public class Internet {
     {
         String rslt="";
 
-        // Setting URL
         String url_str = "http://data.fixer.io/api/latest?access_key=4cf9ee2eceb1b4300feac36f86691dcb";
         try {
 
@@ -28,8 +27,6 @@ public class Internet {
             JsonElement root = jp.parse(new InputStreamReader((InputStream) request.getContent()));
             JsonObject jsonobj = root.getAsJsonObject();
             jsonobj = jsonobj.getAsJsonObject("rates");
-
-            //System.out.println(jsonobj);
 
             rslt = jsonobj.get("USD").getAsString();
             System.out.println(rslt);
