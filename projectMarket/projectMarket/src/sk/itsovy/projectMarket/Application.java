@@ -27,6 +27,11 @@ public class Application {
         Bill bill = new Bill();
 
         int count = bill.getCount();
+<<<<<<< HEAD:projectMarket/projectMarket/src/sk/itsovy/projectMarket/Application.java
+=======
+
+//        int count = bill.getCount();
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f:projectMarket/src/sk/itsovy/projectMarket/Application.java
 
 //        bill.print();
 
@@ -41,7 +46,6 @@ public class Application {
         bill.addItem(beer);
         bill.removeItem(beer);
 
-        int count = bill.getCount();
         System.out.println(count);
 
         bill.print();

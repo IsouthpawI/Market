@@ -95,6 +95,7 @@ public class Bill{
         }
     }
 
+<<<<<<< HEAD:projectMarket/projectMarket/src/sk/itsovy/projectMarket/bill/Bill.java
     public void itemUpdate(Item newItem,Item oldItem){
 
         if(newItem instanceof DrafInterface){
@@ -112,6 +113,8 @@ public class Bill{
 
     }
 
+=======
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f:projectMarket/src/sk/itsovy/projectMarket/bill/Bill.java
     public List<Item> getList() {
         return list;
     }

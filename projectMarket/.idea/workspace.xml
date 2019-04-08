@@ -45,22 +45,39 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/main/xml.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="232">
               <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+            <state relative-caret-position="325">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1554114380084" expanded="true" signature="651:679" ph="..." />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/bill/Bill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="95" column="27" lean-forward="true" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1474#1475#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +88,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/bill/Bill.java" />
         <option value="$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/interfaces/ItemInterface.java" />
         <option value="$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/interfaces/Pc.java" />
@@ -85,6 +103,52 @@
         <option value="$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/main/Global.java" />
         <option value="$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/Application.java" />
         <option value="$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/main/xml.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Goods.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Category.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Bill.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Drink.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Bottle.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Draft.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Food.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Pastry.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Pc.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Sweets.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Fruit.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/ItemInterface.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Item.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Main.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/ItemInterface.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/Drink.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/Pc.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/Item.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/Goods.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/DrafInterface.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/Draft.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/Food.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/Fruit.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/Sweets.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/Pastry.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/items/Bottle.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/Application.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectGLshop/bill/Bill.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/Exception/BillException.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/ItemInterface.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/DrafInterface.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/Pc.java" />
+        <option value="D:/python/Uloha2.py" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/Converter.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/HttpClientBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Uloha.py" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/Internet.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Internet.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Global.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/Application.java" />
+        <option value="$PROJECT_DIR$/src/sk/itsovy/projectMarket/bill/Bill.java" />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
       </list>
     </option>
   </component>
@@ -94,10 +158,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -105,6 +176,10 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +230,7 @@
               <item name="sk" type="462c0819:PsiDirectoryNode" />
               <item name="itsovy" type="462c0819:PsiDirectoryNode" />
               <item name="projectMarket" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="bill" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,18 +261,24 @@
               <item name="sk" type="462c0819:PsiDirectoryNode" />
               <item name="itsovy" type="462c0819:PsiDirectoryNode" />
               <item name="projectMarket" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554690936218" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../projectKauf-master/projectKauf-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -205,6 +287,19 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554123595231" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/projectGLshop-master (1)" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sk.itsovy.projectMarket.main" />
+    </key>
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,14 +322,27 @@
       <created>1554163478651</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1554163478651</updated>
       <workItem from="1554163479773" duration="477000" />
       <workItem from="1554164024772" duration="766000" />
       <workItem from="1554687600734" duration="3132000" />
+=======
+      <updated>1553253665927</updated>
+      <workItem from="1553511618249" duration="5230000" />
+      <workItem from="1553582003490" duration="6459000" />
+      <workItem from="1553594202126" duration="250000" />
+      <workItem from="1553594581641" duration="2156000" />
+      <workItem from="1553681141631" duration="3683000" />
+      <workItem from="1553763224314" duration="2639000" />
+      <workItem from="1553885743563" duration="2735000" />
+      <workItem from="1554100564925" duration="4139000" />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="4375000" />
   </component>
   <component name="ToolWindowManager">
@@ -243,6 +351,16 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2571116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
+=======
+    <option name="totallyTimeSpent" value="27291000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Learn" order="0" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16717096" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -309,6 +427,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/interfaces/DrafInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -320,13 +439,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/items/Sweets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/interfaces/Internet.java" />
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/Exception/BillException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
           <folding>
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/items/Category.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -334,6 +468,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/items/Bottle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
         </state>
       </provider>
     </entry>
@@ -344,15 +498,39 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/items/Fruit.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/items/Fruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/items/Food.java">
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/items/Food.java">
       <provider selected="true" editor-type-id="text-editor" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/items/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
     </entry>
     <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/items/Sweets.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -363,6 +541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/items/Pastry.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="544">
           <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
         </state>
@@ -391,9 +570,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/main/xmk.java">
       <provider selected="true" editor-type-id="text-editor" />
+=======
+        <state relative-caret-position="238">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/items/Draft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/items/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
     </entry>
     <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/items/Item.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="425">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
@@ -403,28 +607,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+=======
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/main/Global.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/bill/Bill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/bill/Bill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="95" column="27" lean-forward="true" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/projectMarket/src/sk/itsovy/projectMarket/main/xml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sk/itsovy/projectMarket/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1554114380084" expanded="true" signature="651:679" ph="..." />
+>>>>>>> 792d08eadddac677f770f999c775a11f3a15690f
           </folding>
         </state>
       </provider>
