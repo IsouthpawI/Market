@@ -11,6 +11,10 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.io.IOException;
+import org.json.simple.parser.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import static sk.itsovy.projectMarket.main.Global.MAXITEMS;
 
@@ -70,10 +74,11 @@ public class Bill{
     }
 
     public int getCount(){
+
         return this.list.size();
     }
 
-    public void print() {
+    public void print() throws IOException, ParseException {
         if (count == 0) {
             System.out.println("Nothing to print. Bill is empty!");
         }
@@ -93,9 +98,15 @@ public class Bill{
                 }
             }
         }
+        if (open == true) {
+            System.out.println("You can add the item");
+        } else {
+            SimpleDateFormat formatter = new SimpleDateFormat("'Date: 'yyyy.MM.dd 'Time: 'HH:mm:ss");
+            Date date = new Date(System.currentTimeMillis());
+            System.out.println(date);
+        }
     }
 
-<<<<<<< HEAD:projectMarket/projectMarket/src/sk/itsovy/projectMarket/bill/Bill.java
     public void itemUpdate(Item newItem,Item oldItem){
 
         if(newItem instanceof DrafInterface){
@@ -113,17 +124,11 @@ public class Bill{
 
     }
 
-=======
->>>>>>> 792d08eadddac677f770f999c775a11f3a15690f:projectMarket/src/sk/itsovy/projectMarket/bill/Bill.java
     public List<Item> getList() {
+
         return list;
     }
 
     public void billEnd(){}
-
-    public String dateFormat(){
-
-        return date;
-    }
 
 }

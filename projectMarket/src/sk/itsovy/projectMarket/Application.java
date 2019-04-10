@@ -5,6 +5,10 @@ import sk.itsovy.projectMarket.Exception.BillException;
 import sk.itsovy.projectMarket.bill.Bill;
 import sk.itsovy.projectMarket.items.*;
 import sk.itsovy.projectMarket.main.Internet;
+import sk.itsovy.projectMarket.main.XML;
+
+import java.io.IOException;
+import java.sql.SQLException;
 
 public class Application {
 
@@ -19,7 +23,7 @@ public class Application {
         return app;
     }
 
-    public void Example() throws BillException {
+    public void Example() throws BillException, IOException, ParseException, SQLException, {
 
         Internet net = new Internet();
         net.getRequest();
@@ -27,11 +31,6 @@ public class Application {
         Bill bill = new Bill();
 
         int count = bill.getCount();
-<<<<<<< HEAD:projectMarket/projectMarket/src/sk/itsovy/projectMarket/Application.java
-=======
-
-//        int count = bill.getCount();
->>>>>>> 792d08eadddac677f770f999c775a11f3a15690f:projectMarket/src/sk/itsovy/projectMarket/Application.java
 
 //        bill.print();
 
@@ -46,12 +45,16 @@ public class Application {
         bill.addItem(beer);
         bill.removeItem(beer);
 
+        int count = bill.getCount();
         System.out.println(count);
 
         bill.print();
         System.out.println("\n");
         System.out.println(bill.getFinalPrice());
         System.out.println(net.getFinalToUSD(bill.getFinalPrice()));
+
+        XML xml = new XML();
+
 
     }
 

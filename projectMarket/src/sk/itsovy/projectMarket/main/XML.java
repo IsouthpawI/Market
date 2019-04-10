@@ -72,7 +72,7 @@ public class XML {
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource source = new DOMSource(doc);
-            StreamResult result = new StreamResult(new File("BILL.xml"));
+            StreamResult result = new StreamResult(new File("newBill.xml"));
             transformer.transform(source, result);
 
             StreamResult consoleResult = new StreamResult(System.out);
